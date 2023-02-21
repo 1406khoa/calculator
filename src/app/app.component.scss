@@ -1,0 +1,79 @@
+
+.page-container{
+  // margin-left: 781px;
+  border: 1px solid;
+  // margin-top: 300px;
+  padding: 30px;
+  box-sizing:border-box;
+  width: fit-content;
+  border-radius: 30px;
+  background-color: rgb(165, 120, 35);
+  box-shadow: 5px 5px;
+  margin: 0 auto;
+}
+
+#title{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: rgb(226, 226, 55);
+}
+
+
+
+
+
+.calc{
+  border: 1px solid;
+  margin: 30px;
+  padding: 30px;
+}
+*{
+  font-family: 'DynaPuff', cursive;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Tourney', cursive;
+
+}
+
+.btn{
+ width: 80px;
+ height: 80px;
+ font-size: 30px;
+ margin: 10px 10px 10px 0;
+ border-radius: 10px;
+ cursor: pointer;
+ box-shadow: 5px 5px;
+}
+
+.btn:hover{
+  background-color: #aaa7a7;
+  transition-duration: 0.1s;
+}
+
+.btn:active {
+  background-color: #e9e3e3;
+}
+
+
+
+
+.input{
+  border: 1px solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 349px;
+  background-color: #f0f0f0;
+  box-shadow: 5px 5px;
+}
+
+app-root{
+  background-color: red;
+}
+
+#text{
+  margin: 10px 0 10px 10px;
+  font-size: 30px;
+  width: 100px;
+  height: 40px;
+}
